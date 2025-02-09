@@ -35,6 +35,5 @@ def run_quiz(questions):
             score += 1
         else:
             print("Wrong, LOSERR!!!! The correct answer was", question["answer"], "\n")
-
     print(f"You got {score} out of {len(questions)} questions correct.")
 run_quiz(questions)
